@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Compile the application
-RUN ./gradlew build -x test
+#RUN ./gradlew build -x test
 
 # Optional. Specifies that the /temp direcotory will be uses as a volume to store temporaty files and cache data
 VOLUME /tmp
