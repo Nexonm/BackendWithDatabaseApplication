@@ -16,4 +16,13 @@ public class StudentEntity {
     private String studGroup;
     private Double gpa;
 
+    @Override
+    public String toString() {
+        return "StudentEntity{" +
+                "email='" + email + '\'' +
+                ", name='" + name + '\'' +
+                ", studGroup='" + studGroup + '\'' +
+                ", gpa=" + gpa +
+                '}';
+    }
 }
